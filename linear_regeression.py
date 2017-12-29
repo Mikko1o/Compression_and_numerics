@@ -36,5 +36,3 @@ def linear_regression(filename):
     k = denominator / nominator
     b = y_mean - k * x_mean
     return k, b
-
-print(linear_regression('data.txt'))

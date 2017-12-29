@@ -89,5 +89,3 @@ def encode_file(sourcefile, codefile):
         empirical_entropy = empirical_entropy + x * math.log(x, 2)
     print("Average code length: " + str(average_length))
     print("Empirical entropy: " + str(-empirical_entropy))
-
-encode_file('ruusu.txt', 'ruusukoodi.txt')
